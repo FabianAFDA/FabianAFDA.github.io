@@ -35,8 +35,6 @@ a {
     background-repeat: no-repeat;
     width: 768px;
     height: 262px;
-    text-align: center;
-    padding-top: 50px;
 }
 
 #menu {
@@ -80,12 +78,20 @@ h1, h2, h3 {
     color: #171508;
 }
 
-h1 {
-    margin-top: 20px;
-    text-align: center;
+h1, h2 {
+    position: absolute;
+    top: 94px;
 }
 
-h2, h3 {
+h1 {
+    left: 241px;
+}
+
+h2 {
+    right: 75px;
+}
+
+h3 {
     margin: 15px 0px 0px 30px;
     border-bottom: solid 1px #625d3b;
 }
@@ -99,14 +105,68 @@ h2, h3 {
     height: auto;
 }
 
-#content
+#content {
+    background-image: url(images/content_bg.gif);
+    background-repeat: repeat-y;
+    width: 768px;
+}
 
-/********************FOOTER***********************/
-#footer {
+/********************** Left - Text ***************************/
+#left {
+    float: left;
+    width: 490px;
+}
+
+#left p {
+    padding: 5px 10px 10px 30px;
+}
+
+#left a:hover {
+    color: #d8cd8d;
+}
+
+/********************** Right - Team ***************************/
+#right {
+    float: right;
+    width: 230px;
+}
+
+.member {
+    display: inline;
+    float: left;
+    margin-left: 10px;
+}
+
+.member a {
+    font-size: 12px;
+    font-weight: bold;
+    color: #f5f1d1;
+    text-decoration: none;
+}
+
+.member img {
+    border: none 0px;
+}
+
+.member span {
+    display: block;
+    text-align: center;
+    padding: 2px 0px 13px 0px;
+    text-transform: uppercase;
+}
+
+.member span a {}
+
+.member span a:hover {}
+
+/********************** Footer ***************************/
+footer {
     background-color: #f1f1f1;
     text-align: center;
     padding: 1em;
     position: fixed;
     width: 100%;
     bottom: 0;
+    left: 0;
+    right: 0;
 }
