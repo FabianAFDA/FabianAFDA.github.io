@@ -102,51 +102,11 @@ h2, h3 {
 #content
 
 /********************FOOTER***********************/
-#footer {
-    background-image: url(images/footer_bg.jpg);
-    background-repeat: no-repeat;
-    width: 768px;
-    height: 97px;
+footer {
+    background-color: #f1f1f1;
     text-align: center;
-    clear: both;
-    padding-top: 20px;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
-
-#footer ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-#footer li {
-    display: inline;
-    margin: 0 10px;
-    padding: 0;
-    border-right: solid 1px #908a68;
-}
-
-#footer li:last-child {
-    border-right: none;
-}
-
-#footer a {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 11px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #908a68;
-    text-decoration: none;
-}
-
-#footer a:hover {
-    text-decoration: underline;
-}
-
-#footer span {
-    font-size: 9px;
-    font-weight: bold;
-    color: #18160e;
-    display: block;
-    margin-top: 10px;
-}
-
