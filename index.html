@@ -1,31 +1,68 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to My Website</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="script.js" defer></script>
+    <meta charset="iso-8859-1">
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <title>Counter-strike Template</title>
+    <script src="js/script.js" defer></script>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <h1>Welcome to My Website!</h1>
-    </header>
-    <main>
-        <h2>Interactive Section</h2>
-        <label for="nameInput">Enter your name:</label>
-        <input type="text" id="nameInput">
-        <button onclick="greetUser()">Submit</button>
-        <p id="greetingMessage"></p>
-    </main>
-    <footer>
-        <p>ID: 23229542 | Name: Fabian Afdaniel Aruan</p>
-    </footer>
+<div id="container">
+    <div id="header"></div>
+    <div id="menu">
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="about.html">about me</a></li>
+            <li><a href="members.html">members</a></li>
+            <li><a href="services.html">services</a></li>
+            <li><a href="links.html">links</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+        <h1>About our clan</h1>
+        <h2>Team roster</h2>
+    </div>
+    
+    <div id="main">
+        <div id="content">
+            <div id="left">
+                <p>Don't forget to check <a href="http://www.freewebsitetemplates.com">free website templates</a> every day, because we add at least one free website template daily.</p>
+                <p>This is a template designed by free website templates for you for free you can replace all the text by your own text. This is just a placeholder so you can see how the site would look like.</p>
+                <p>You can remove any link to our websites from this template you're free to use the template without linking back to us.</p>
+                <p>If you're having problems editing the template please don't hesitate to ask for help on the <a href="http://www.freewebsitetemplates.com/forum/">forum</a>.</p>
+                
+                <h3>CS Features</h3>
+                <p>If you're looking for beautiful and professionally made templates you can find them at <a href="http://www.templatebeauty.com">Template Beauty</a>.</p>
+                <p>Even more websites all about website templates on <a href="http://www.justwebtemplates.com">Just Web Templates</a>.</p>
+                
+                <h2>Interactive Section</h2>
+                <label for="nameInput">Enter your name:</label>
+                <input type="text" id="nameInput">
+                <button onclick="greetUser()">Submit</button>
+                <p id="greetingMessage"></p>
+            </div>
+            
+            <div id="right">
+                <div class="member">
+                    <a href="http://www.freewebsitetemplates.com"><img src="images/member1.gif" alt="member" /></a>
+                    <span><a href="http://www.freewebsitetemplates.com">Cyberstriker</a></span>
+                </div>
+                <!-- Add more members as needed -->
+            </div>
+            
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div id="footer">
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="about.html">about me</a></li>
+            <li><a href="members.html">members</a></li>
+            <li><a href="services.html">services</a></li>
+            <li><a href="links.html">links</a></li>
+            <li class="lastchild"><a href="contact.html">contact</a></li>
+        </ul>
+        <span>ID: 12345 | Name: John Doe</span>
+    </div>  
+</div>
 </body>
 </html>
