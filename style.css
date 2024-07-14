@@ -159,6 +159,12 @@ h3 {
 
 .member span a:hover {}
 
+
+.ganteng-image {
+    width: 200px;
+    height: auto;
+}
+
 /********************** Footer ***************************/
 footer {
     background-color: #f1f1f1;
